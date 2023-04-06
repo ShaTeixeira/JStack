@@ -15,7 +15,7 @@ const app = express();
   // Middleware 3
 }); */
 
-
+app.use(express.json());
 app.use(routes); // Middleware 4
 
 
